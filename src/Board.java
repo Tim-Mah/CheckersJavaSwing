@@ -88,35 +88,6 @@ public class Board
 			rulesTXT.addMouseListener(new MouseListener() {
 
 				@Override
-				public void mouseClicked(MouseEvent e)
-				{
-					if(used == false)
-					{
-						rulesTXT.setText(null);
-						rulesF.setTitle("You know the rules, and so do I, you wouldn't get this from any other guy.");
-						try
-						{
-							ImageIcon imgIcon = new ImageIcon("rules.gif");
-							File f = new File("rules.gif");
-							if(!f.exists())
-							{
-								window.dispose();
-								System.exit(0);
-							}
-							rulesTXT.setIcon(imgIcon);
-							playSound("rules.wav");
-							used = true;
-							rulesF.pack();
-							rulesF.repaint();
-							rulesF.requestFocus();
-							rulesF.setAlwaysOnTop(true);
-						} catch (Exception ex)
-						{
-						}
-					}
-				}
-
-				@Override
 				public void mousePressed(MouseEvent e)
 				{				
 				}

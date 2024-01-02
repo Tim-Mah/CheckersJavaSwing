@@ -1,5 +1,5 @@
 # CheckersJavaSwing
-2 player Checkers implemented using JavaSwing
+2 player Checkers implemented using JavaSwing, and Video Demo/Code Explanation
 
 **Rules:**
 
